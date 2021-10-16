@@ -4,7 +4,7 @@
     <avatar :url = "user.avatar" size="36px" />
     <q-menu fit self="top middle">
       <q-list>
-        <q-item clickable tag = "small" v-close-popup @click = "_toggle('newItem')">
+        <q-item clickable tag = "small" v-close-popup @click = "_toggle('newItem')" v-if = "user.accountStatus == 1">
           <q-item-section avatar>
             <q-icon name = "playlist_add" size="20px" />
           </q-item-section>
