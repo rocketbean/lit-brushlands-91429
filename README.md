@@ -1,6 +1,13 @@
 # resman item listing (resman)
 
 store listing
+```
+  you can configure 
+  environment & API endpoint in
+  --> ./src/boot/resman.js
+  
+  
+```
 
 ## Install the dependencies
 ```bash
